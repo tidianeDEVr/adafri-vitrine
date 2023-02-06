@@ -1,21 +1,14 @@
-<?php include('sms.css.php')?>
+<?php include('search-engine.css.php')?>
 
 <!-- hero section  -->
 <section class="hero-section">
     <div class="container">
-        <div class="row">
-            <div class="col col-8">
-                <div>
-                    <h2>Vos Campagnes <span>SMS Marketing</span><br>En Afrique</h2>
-                    <p>
-                        Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing elit. Morbi<br> dui neque, consectetur ac malesuada et, <span>porttitor</span>  ac dui.
-                    </p>
-                </div>
-            </div>
-            <div class="col col-4">
-                <div>
-                    <img src="<?php echo(WEB_ROOT.'assets/images/wew.png')?>" alt="adafri">
-                </div>
+        <div class="text-center">
+            <div class="col">
+                <h2>Publicites sur le moteur de recherche <span>Google</span></h2>
+                <p>
+                    Google Ads atteint les internautes au moment où ils effectuent une <span>recherche sur vos produits et services</span>. Votre site Web enregistre donc des visites de <span>clients plus qualifiés</span>, et vous ne payez que lorsque les utilisateurs cliquent sur votre annonce.
+                </p>
             </div>
         </div>
     </div>
@@ -27,10 +20,9 @@
         <div class="row">
             <div class="col">
                 <div class="d-flex flex-column justify-content-center h-100">
-                    <h3>Bulk SMS: Soyez + proche de vos clients</h3>
+                    <h3>Qui cherche, trouve !</h3>
                     <p class="mt-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui<br>
-                        neque, consectetur ac malesuada et, porttitor ac dui.
+                    Diffusez des annonces uniquement lorsque les utilisateurs recherchent votre produit ou service.
                     </p>
                     <div class="mt-2">
                         <a href="https://app.adafri.com/" target="_blank" class="yellow-btn">
@@ -41,7 +33,7 @@
             </div>
             <div class="col ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/sms-1.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/google 1.png')?>" alt="adafri">
                 </div>
             </div>
         </div>
@@ -51,36 +43,31 @@
 <!-- blue card section  -->
 <section class="blue-card-section">
     <div class="container text-center py-5">
-        <h2 class="mt-3">Des SMS plus rapides</h2>
+        <h2 class="mt-3">Lancez une annonce comme un pro</h2>
         <p class="my-4">
-        Remontez votre base de données via fichier CSV,<br>
-        ou créez des groupes manuellement sur la plateforme.<br>
-        Nul besoin de formater tous les indicatifs : <br>
-        notre robot s’en occupe.
+            Notre plateforme vous aide à atteindre vos objectifs de notoriété<br>
+            et/ou de conversion.Nous avons simplifié le jargon technique des<br>
+            régies, et tout le monde se retrouve facilement chez ADAFRI.
         </p>
         <div class="btn pt-3">
-            <a href="" class="yellow-btn">Accéder au crédit publicitaire</a>
+            <a href="" class="green-btn">Télécharger le guide</a>
         </div>
     </div>
 </section>
 
 <!-- third section  -->
 <section class="third-section">
-    <div class="container">
+    <div class="container py-2">
         <div class="row">
-            <div class="col">
-                <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/5fcfa.webp')?>" alt="adafri">
+            <div class="col col-4">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/goal.png')?>" alt="adafri">
                 </div>
             </div>
-            <div class="col">
-                <div class="h-100 d-flex flex-column justify-content-center">
-                    <h3>Des SMS plus économiques</h3>
-                    <p class="mt-3">
-                        Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing<br>
-                        elit. Morbi dui neque, consectetur ac malesuada et,<br> 
-                        <span>porttitor</span> ac dui.
-                    </p>
+            <div class="col col-8">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <h3>Payez uniquement pour des clics</h3>
+                    <p>Vous ne serez facturé que pour les personnes qui cliquent sur vos annonces.</p>
                     <div class="mt-3">
                         <a href="" class="yellow-btn">Lancez vous</a>
                     </div>
@@ -110,8 +97,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a target="_blank"
-                        href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
+                        <a href="" class="green-btn">Prendre rendez-vous</a>
                     </div>
                 </div>
             </div>

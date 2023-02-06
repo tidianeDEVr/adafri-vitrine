@@ -1,4 +1,10 @@
-<?php include("solutions.css.php");?>
+<!-- Meta Tags  -->
+<title>solutions</title>
+<?php 
+    include("solutions.css.php");
+    echo(START_TAGS);
+    require_once(ROOT_VIEWS_INC."menu.inc.php");
+?>
 
 <!-- hero section -->
 <section class="hero-section">
@@ -77,7 +83,8 @@
             la bonne nouvelle, c’est que vous pouvez y accéder.
         </p>
         <div class="btn pt-3">
-            <a href="" class="yellow-btn">Accéder au crédit publicitaire</a>
+            <a target="_blank"
+             href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="yellow-btn">Accéder au crédit publicitaire</a>
         </div>
     </div>
 </section>
@@ -102,7 +109,8 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="green-btn">Prendre rendez-vous</a>
+                        <a target="_blank"
+                         href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
                     </div>
                 </div>
             </div>

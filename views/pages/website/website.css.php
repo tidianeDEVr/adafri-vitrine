@@ -1,4 +1,5 @@
 <style>
+    /* hero  section  */
     .hero-section {
         background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.png')?>);
         background-position: center;
@@ -22,60 +23,24 @@
         margin-top: 20px;
         font-size: 16px;
     }
+
     .second-section {
-        padding: 50px 0;
         background-color: #F6F6F6;
     }
     .second-section .col img {
-        width: 100%;
+        max-width: 400px;
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
     }
-    .second-section h5 {
-        font-size: 32px;
-        font-weight: 600;
+    .second-section .col h3 {
         color: #2344C3;
-    }
-    .second-section {
-        padding: 50px 0;
-        background-color: #F6F6F6;
-    }
-    .second-section .col img {
-        width: 100%;
-    }
-    .second-section h5 {
-        font-size: 32px;
         font-weight: 600;
-        color: #2344C3;
     }
-    .second-section {
-        padding: 50px 0;
-        background-color: #F6F6F6;
-    }
-    .second-section .col img {
-        width: 100%;
-    }
-    .second-section h5 {
-        font-size: 32px;
-        font-weight: 600;
-        color: #2344C3;
-    }
-    .second-section {
-        padding: 50px 0;
-        background-color: #F6F6F6;
-    }
-    .second-section .col img {
-        width: 100%;
-    }
-    .second-section h5 {
-        font-size: 32px;
-        font-weight: 600;
-        color: #2344C3;
+    .second-section .col p {
+        color: #505050;
+        font-weight: 300;
     }
 
-    .second-section p {
-        font-size: 16px;
-        font-weight: 300;
-        color: #505050;
-    }
     /* blue card section  */
     .blue-card-section {
         padding-top: 50px;
@@ -102,80 +67,29 @@
     .blue-card-section .container p {
         font-weight: 300;
         font-size: 18px;
-        line-height: 30px;   
+        line-height: 30px;
+        
     }
 
-    /* tarifs section  */
-    .tarifs-sections {
+     /* third section */
+     .third-section {
         background-color: #F6F6F6;
-        padding: 50px 0;
+    }
 
+    .third-section h3 {
+         color: #2344C3;
+         font-size: 32px;
+         font-weight: 600;
     }
-    .tarifs-sections h2 {
-        font-size: 32px;
-        font-weight: 600;
-        color: #2344C3;
-    }
-    .tarifs-sections .col .card {
-        height: 600px;
-        position: relative;
-        border-radius: 20px;
-        padding: 20px;
-        max-width: 370px;
-        margin: 0 auto;
-    }
-    .tarifs-sections .col .card .btn {
-        bottom: 10px;
-    }
-    .tarifs-sections .col .card h6 {
-        font-weight: 600;
-        font-size: 21px;
-    }
-    .tarifs-sections .col .card .price {
-        font-weight: 600;
-    }
-    .tarifs-sections .col .card .price .value {
-        font-size: 64px;
-    }
-    .tarifs-sections .col .card .duration {
-        text-align: center;
+    .third-section p {
         font-size: 16px;
-        margin-top: -20px;
-        font-weight: 600;
-    }
-    .tarifs-sections .col .card p {
-        font-size: 16px;
-        font-weight: 300;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .tarifs-sections .col .card ul {
-        list-style-type: none;
-    }
-    .tarifs-sections .col .card ul li {
-        display: flex;
-        align-items: center;
-        margin-bottom: 15px;
-    }
-    .tarifs-sections .col .card ul li span {
-        margin-right: 10px;
-        padding: 5px;
-        scale: .8;
-        color: #fff;
-        background-color: #4ECB71;
-        border-radius: 50%;
-    }
-    .tarifs-sections .col .business {
-        background: rgb(7,113,225);
-        background: linear-gradient(45deg, rgba(7,113,225,1) 0%, rgba(3,38,134,1) 100%);
-        color: #fff;
-    }
-    .tarifs-sections .col .business ul li span {
-        background-color: #FFE000;
-        color: #000;
-
+        color: #505050;
     }
 
+    .third-section img {
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
+    }
     /* join section  */
     .join-section {
         padding-bottom: 50px;
@@ -212,7 +126,4 @@
         background-color: rgba(78, 203, 113, 1);
         border: 4px solid rgba(218, 255, 228, 1);
     }
-   .join-section .card p {
-        color: #505050;
-   } 
 </style>

@@ -52,17 +52,16 @@
     }
        
     .hero-section .hero-img {
-        /* width: 850px; */
-        /* top: -100px;
-        left: -20%; */
         z-index: 5;
+        display: flex;
+        margin-left: -100px;
+        margin-top: -100px;
     }
     .hero-section .hero-img img {
         width: 800px;
-        position: absolute;
-        top: 50%;
-        right: 50%;
-        transform: translateX(40%) translateY(-10%);
+        z-index: 5;
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
     }
 
     .hero-section .demo {
@@ -138,11 +137,13 @@
         font-size: 40px;
     }
 
-    .presentation-section .advertisers-img img{ 
-        width: 90%;
-    }
-    .presentation-section .communication-img img{
+    .presentation-section .advertisers-img img, 
+    .presentation-section .communication-img img
+    { 
         width: 100%;
+        max-width: 600px;
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
     }
     .presentation-section .communications .col-right {
         display: flex;
@@ -154,7 +155,7 @@
         color: #2344C3;
     }
     .presentation-section .communications .col-right p {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         color: #505050;
         line-height: 30px;
@@ -165,6 +166,7 @@
         border: none;
         padding: 20px;
         position: relative;
+        padding: 40px;
         padding-bottom: 60px;
     }
     .presentation-section .cards .card h6 {
@@ -181,7 +183,7 @@
     .presentation-section .cards .card .btn {
         position: absolute;
         bottom: 20px;
-        left: 0;
+        left: 30px;
     }
     /* blue card section  */
     .blue-card-section {

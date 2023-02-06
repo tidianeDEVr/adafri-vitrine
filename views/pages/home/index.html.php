@@ -1,9 +1,15 @@
-<?php include("index.css.php");?>
+<!-- Meta Tags -->
+<title>Adafri - Outil Marketing | Publicité Afrique | Adafri </title>
+<?php 
+    include("index.css.php");
+    echo(START_TAGS);
+    require_once(ROOT_VIEWS_INC."menu.inc.php");
+?>
 
 <!-- hero section -->
 <section class="hero-section">
     <div class="container h-100">
-        <div class="row row-reverse h-100">
+        <div class="row flex-sm-nowrap row-reverse h-100">
             <div class="col col-12 col-lg-6 order-2 order-sm-1">
                 <div class="animate__animated animate__rollIn">
                     <h1>Marketplace<br><span class="yellow">Publicitaire</span></h1><br>
@@ -24,7 +30,7 @@
                 </div>
             </div>
             <div class="col col-12 col-lg order-1 order-sm-2">
-                <div class='hero-img position-relative w-100'>
+                <div class='hero-img d-flex align-items-center justify-content-center w-100'>
                     <img src="<?php echo(WEB_ROOT.'assets/images/img-header.png') ?>" alt="adafri">
                 </div>
             </div>
@@ -59,7 +65,7 @@
     <div class="container mt-5">
         <div class="row advertisers">
             <div class="col-left col col-12 col-lg-4">
-                <div class="text-center text-lg-start">
+                <div class="text-center">
                     <h5>Plus de</h5>
                     <p>
                         500
@@ -80,10 +86,10 @@
                 </div>
             </div>
             <div class="col col-12 col-lg-6 col-right order-1 order-lg-2">
-                <div class="mt-5 mt-lg-0">
+                <div class="mt-5 mt-lg-0 text-center">
                     <h5>
                         Gérez toute votre communication<br>
-                        sur une seule et unique<br>plateforme
+                        sur une seule et unique plateforme
                     </h5>
                     <p class="my-4">
                         Concevez, déployez , gérez et suivez à partir d'une<br>
@@ -161,7 +167,8 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="green-btn">Prendre rendez-vous</a>
+                        <a target="_blank"
+                        href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
                     </div>
                 </div>
             </div>

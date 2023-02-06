@@ -15,6 +15,7 @@ class Router  {
 
     public function resolve(){
         $array_uri = $this->request->getUri();
+        $array_uri = str_replace('-', '_', $array_uri);
         if(empty($array_uri[0]) || !isset($array_uri[1]))Response::redirectUrl("page/accueil");
         $action=$array_uri[1];
         if(strpos($action,"."))Response::redirectUrl("page/accueil");

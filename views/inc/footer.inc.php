@@ -4,18 +4,18 @@
           <div class="col col-12 col-md-6 col-xl-3">
             <h6>Nos solutions</h6>
             <ul>
-              <li><a href="" class="justify-content-center justify-content-lg-start">Publicités sur les sites web</a></li>
-              <li><a href="" class="justify-content-center justify-content-lg-start">Publicités sur les moteurs de recherche</a></li>
-              <li><a href="" class="justify-content-center justify-content-lg-start">Panneaux LED</a></li>
+              <li><a href="<?php path('page/website-ads')?>" class="justify-content-center justify-content-lg-start">Publicités sur les sites web</a></li>
+              <li><a href="<?php path('page/search-engine-ads')?>" class="justify-content-center justify-content-lg-start">Publicités sur les moteurs de recherche</a></li>
+              <li><a href="<?php path('page/led-pannels-ads')?>" class="justify-content-center justify-content-lg-start">Panneaux LED</a></li>
               <li><a href="<?php path('page/sms')?>" class="justify-content-center justify-content-lg-start">SMS Marketing</a></li>
-              <li><a href="" class="justify-content-center justify-content-lg-start">Chatbot WhatsApp</a></li>
+              <li><a href="<?php path('page/chatbot')?>" class="justify-content-center justify-content-lg-start">Chatbot WhatsApp</a></li>
             </ul>
           </div>
           <div class="col col-12 col-md-6 col-xl-3 mt-5 mt-md-0">
             <h6>Mentions Légales</h6>
             <ul>
-              <li><a href="<?php path('page/cgu') ?>" class="justify-content-center justify-content-lg-start">Conditions générales d’utilisation</a></li>
-              <li><a href="<?php path('page/pc') ?>" class="justify-content-center justify-content-lg-start">Politique de confidentialité</a></li>
+              <li><a href="<?php path('page/conditions-generales-utilisation') ?>" class="justify-content-center justify-content-lg-start">Conditions générales d’utilisation</a></li>
+              <li><a href="<?php path('page/politique-confidentialite') ?>" class="justify-content-center justify-content-lg-start">Politique de confidentialité</a></li>
             </ul>
           </div>
           <div class="col col-12 col-md-6 col-xl-3 mt-5 mt-md-0">

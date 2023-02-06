@@ -16,14 +16,11 @@
     .hero-section h1 {
         font-size: 50px !important;
         line-height: 60px !important;
+        margin-top: -200px !important;
     }
     .hero-section .hero-img {
-        position: relative !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        max-width: 100% !important;
-        margin-bottom: 20px;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
     }
     .hero-section .hero-img img {
         width: 100% !important;

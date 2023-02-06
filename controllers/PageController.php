@@ -21,11 +21,11 @@ class PageController extends AbstractController {
         $this->render("pages/solutions/solutions");
     }
 
-    public function cgu(){
+    public function conditions_generales_utilisation(){
         $this->render("pages/cgu/cgu");
     }
 
-    public function pc(){
+    public function politique_confidentialite(){
         $this->render("pages/pc/pc");
     }
 
@@ -35,6 +35,18 @@ class PageController extends AbstractController {
 
     public function chatbot(){
         $this->render("pages/chatbot/chatbot");
+    }
+
+    public function website_ads(){
+        $this->render("pages/website/website");
+    }
+
+    public function search_engine_ads(){
+        $this->render("pages/search-engine/search-engine");
+    }
+
+    public function led_pannels_ads(){
+        $this->render("pages/led-pannels/led-pannels");
     }
 
 
