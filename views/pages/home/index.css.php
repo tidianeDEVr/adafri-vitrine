@@ -98,6 +98,8 @@
     }
     .presentation-section .carousel-holder{
         height: 400px;
+        overflow: hidden;
+        max-width: 100vw;
     }
 
     .presentation-section .title h4{
