@@ -36,8 +36,8 @@
         padding-bottom: 50px;
     }
 
-    .presentation-section .carousel {
-        height: 500px;
+    .presentation-section .carousel-holder {
+        height: 400px;
     }
     .presentation-section .title h4{
         color: #2344C3;
@@ -90,7 +90,6 @@
         border-radius: 40px;
         background: rgb(7,113,225);
         background: linear-gradient(45deg, rgba(7,113,225,1) 0%, rgba(3,38,134,1) 100%);
-        height: 480px;
     }
     .blue-card-section .container img {
         border: solid rgba(232, 250, 255, 0.4) 4px;

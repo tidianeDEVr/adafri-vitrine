@@ -1,4 +1,10 @@
-<?php include("cgu.css.php") ?>
+<!-- Meta Tags -->
+<title>Adafri - Outil Marketing | Publicité Afrique | Adafri </title>
+<?php 
+    include("cgu.css.php");
+    echo(START_TAGS);
+    require_once(ROOT_VIEWS_INC."menu.inc.php");
+?>
 
 <!-- hero section  -->
 <section class="hero-section">

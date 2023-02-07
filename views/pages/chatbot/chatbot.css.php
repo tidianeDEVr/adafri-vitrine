@@ -64,6 +64,8 @@
     }
     .second-section .col img {
         width: 100%;
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
     }
     .second-section h5 {
         font-size: 32px;

@@ -58,7 +58,7 @@
         margin-top: -100px;
     }
     .hero-section .hero-img img {
-        width: 800px;
+        width: 750px;
         z-index: 5;
         -webkit-animation: image-move 2s ease-in-out infinite both;
         animation: image-move 2s ease-in-out infinite both;
@@ -96,8 +96,8 @@
         color: #2344C3;
         line-height: 45px;
     }
-    .presentation-section .carousel{
-        height: 500px;
+    .presentation-section .carousel-holder{
+        height: 400px;
     }
 
     .presentation-section .title h4{

@@ -1,4 +1,10 @@
-<?php include('chatbot.css.php')?>
+<!-- Meta Tags -->
+<title>Adafri - Outil Marketing | Publicité Afrique | Adafri </title>
+<?php 
+    include("chatbot.css.php");
+    echo(START_TAGS);
+    require_once(ROOT_VIEWS_INC."menu.inc.php");
+?>
 
 <!-- hero section  -->
 <section class="hero-section">
@@ -18,7 +24,7 @@
 <section class="second-section">
     <div class="container">
         <div class="row">
-            <div class="col col-7">
+            <div class="col col-7 text-center">
                 <div class="h-100 d-flex flex-column justify-content-center">
                     <h5>Un ChatBot sans ligne de code</h5>
                     <p class="mt-3">

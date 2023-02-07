@@ -33,6 +33,8 @@
     }
     .second-section .col img {
         max-width: 200px;
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
     }
     .second-section .col h3 {
         color: #2344C3;
@@ -78,6 +80,8 @@
         width: 100%;
         max-height: 350px;
         object-fit: contain;
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
     }
     .third-section .col h3 {
         font-size: 32px;

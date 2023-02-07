@@ -49,5 +49,21 @@ class PageController extends AbstractController {
         $this->render("pages/led-pannels/led-pannels");
     }
 
+    public function tv(){
+        $this->render("pages/tv/tv");
+    }
+
+    public function radio(){
+        $this->render("pages/led-pannels/led-pannels");
+    }
+
+    public function ussd(){
+        $this->render("pages/ussd/ussd");
+    }
+
+    public function simulator(){
+        $this->render("pages/simulator/simulator");
+    }
+
 
 }

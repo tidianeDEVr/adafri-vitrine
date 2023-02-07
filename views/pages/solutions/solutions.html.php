@@ -30,8 +30,8 @@
 <!-- presentation section  -->
 <section class="presentation-section">
     <div class="container">
-        <div class="carousel bg-danger">
-    
+        <div class="container carousel-holder">
+            <!-- <?php include(WEB_ROOT.'../../home/carousel.html.php')?> -->
         </div>
         <div class="title text-center mt-5">
             <h4>Publicite sur les sites webs</h4>

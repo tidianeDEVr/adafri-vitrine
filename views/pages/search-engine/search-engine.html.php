@@ -1,4 +1,10 @@
-<?php include('search-engine.css.php')?>
+<!-- Meta Tags -->
+<title>Adafri - Outil Marketing | Publicité Afrique | Adafri </title>
+<?php 
+    include("search-engine.css.php");
+    echo(START_TAGS);
+    require_once(ROOT_VIEWS_INC."menu.inc.php");
+?>
 
 <!-- hero section  -->
 <section class="hero-section">
@@ -18,7 +24,7 @@
 <section class="second-section py-5">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col text-center">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <h3>Qui cherche, trouve !</h3>
                     <p class="mt-2">
@@ -64,7 +70,7 @@
                     <img src="<?php echo(WEB_ROOT.'assets/images/goal.png')?>" alt="adafri">
                 </div>
             </div>
-            <div class="col col-8">
+            <div class="col col-8 text-center">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <h3>Payez uniquement pour des clics</h3>
                     <p>Vous ne serez facturé que pour les personnes qui cliquent sur vos annonces.</p>

@@ -1,4 +1,10 @@
-<?php include('sms.css.php')?>
+<!-- Meta Tags -->
+<title>sms</title>
+<?php 
+    include("sms.css.php");
+    echo(START_TAGS);
+    require_once(ROOT_VIEWS_INC."menu.inc.php");
+?>
 
 <!-- hero section  -->
 <section class="hero-section">
@@ -25,7 +31,7 @@
 <section class="second-section py-5">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col text-center">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <h3>Bulk SMS: Soyez + proche de vos clients</h3>
                     <p class="mt-2">

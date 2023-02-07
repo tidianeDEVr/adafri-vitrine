@@ -29,6 +29,8 @@
     }
     .second-section .col img {
         max-width: 450px;
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
     }
     .second-section .col h3 {
         color: #2344C3;
@@ -81,6 +83,10 @@
     .third-section p {
         font-size: 16px;
         color: #505050;
+    }
+    .third-section img {
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
     }
     /* join section  */
     .join-section {

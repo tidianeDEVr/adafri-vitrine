@@ -11,7 +11,7 @@
     <div class="container h-100">
         <div class="row flex-sm-nowrap row-reverse h-100">
             <div class="col col-12 col-lg-6 order-2 order-sm-1">
-                <div class="animate__animated animate__rollIn">
+                <div class="animate__animated animate__backInDown">
                     <h1>Marketplace<br><span class="yellow">Publicitaire</span></h1><br>
                     <p>
                         <span class="yellow">Prenez le contrôle</span> d’une plateforme automatisée,<br>
@@ -49,8 +49,8 @@
 <section class="presentation-section">
     <div class="container">
         <h2 class="mb-5">Un outil automatisé qui aide les agences,<br> les community managers, et des entreprises</h2>
-        <div class="container bg-danger carousel">
-            
+        <div class="container carousel-holder">
+            <?php include('carousel.html.php')?>
         </div>
         <div class="title text-center mt-5">
             <h4>Publicite sur les sites webs</h4>
