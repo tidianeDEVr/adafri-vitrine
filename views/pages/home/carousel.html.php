@@ -10,6 +10,8 @@
         <div id="sms"></div>
         <div id="radio"></div>
         <div id="leds"></div>
+        <div id=""></div>
+        <div id=""></div>
     </div>
     <div class="controls d-flex justify-content-center">
         <button class="mx-1" onclick="carrousel('-')">
@@ -26,17 +28,17 @@
 	function carrousel(sign){
 		spinner=document.querySelector(".carrousel");
 		if(!sign){
-			angle = angle + 51.5
+			angle = angle + 40
 		}else{ 
-			angle = angle - 51.5
-			}
+			angle = angle - 40
+        }
 		spinner.setAttribute("style","transform:rotateY("+ angle +"deg);")
 	}
     document.querySelector('#website').addEventListener('click', ()=>{
         window.location.href = '<?php echo(WEB_ROOT)?>page/website-ads';
     })
     document.querySelector('#ussd').addEventListener('click', ()=>{
-        // window.location.href = '<?php echo(WEB_ROOT)?>page/website-ads';
+        window.location.href = '<?php echo(WEB_ROOT)?>page/ussd';
     })
     document.querySelector('#search').addEventListener('click', ()=>{
         window.location.href = '<?php echo(WEB_ROOT)?>page/search-engine-ads';
@@ -49,7 +51,7 @@
     })
     
     document.querySelector('#radio').addEventListener('click', ()=>{
-        // window.location.href = '<?php echo(WEB_ROOT)?>page/website-ads';
+        window.location.href = '<?php echo(WEB_ROOT)?>page/radio';
     })
     document.querySelector('#leds').addEventListener('click', ()=>{
         window.location.href = '<?php echo(WEB_ROOT)?>page/led-pannels-ads';

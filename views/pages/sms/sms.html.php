@@ -1,5 +1,8 @@
 <!-- Meta Tags -->
-<title>sms</title>
+<title>Campagne SMS - Bulk SMS Marketing | Adafri</title>
+<meta name="description" content="SMS marketing : personnalisez vos sms. Créez vos SMS, lancez des campagnes et bulks sms de masse vers tout opérateur en Afrique au même tarif.">
+<meta name="keywords" content="sms marketing Africa, sms entreprise, campagne sms Afrique, lampush">
+
 <?php 
     include("sms.css.php");
     echo(START_TAGS);

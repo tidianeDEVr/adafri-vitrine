@@ -1,5 +1,8 @@
 <!-- Meta Tags -->
-<title>Adafri - Outil Marketing | Publicité Afrique | Adafri </title>
+<title>Outil Marketing | Publicité  Afrique | Adafri</title>
+<meta name="description" content=" Publicité omnicanale sur toute l'Afrique.Prenez le contrôle de plusieurs régies publicitaires. Communiquez sur toute l'Afrique.">
+<meta name="keywords" content="Outil Marketing, Publicité  Afrique, Adafri, Google Ads en Afrique">
+
 <?php 
     include("index.css.php");
     echo(START_TAGS);
@@ -46,7 +49,7 @@
 </section>
 
 <!-- presentation section  -->
-<section class="presentation-section">
+<section class="presentation-section" id="solutions">
     <div class="container">
         <h2 class="mb-5">Un outil automatisé qui aide les agences,<br> les community managers, et des entreprises</h2>
         <div class="container carousel-holder">

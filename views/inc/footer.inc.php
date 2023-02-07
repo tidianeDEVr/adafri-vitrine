@@ -4,11 +4,15 @@
           <div class="col col-12 col-md-6 col-xl-3">
             <h6>Nos solutions</h6>
             <ul>
+              <li><a href="<?php path('page/tv')?>" class="justify-content-center justify-content-lg-start">Campagnes TV</a></li>
+              <li><a href="<?php path('page/radio')?>" class="justify-content-center justify-content-lg-start">Campagnes Radio</a></li>
+              <li><a href="<?php path('page/chatbot')?>" class="justify-content-center justify-content-lg-start">Chatbot WhatsApp</a></li>
               <li><a href="<?php path('page/website-ads')?>" class="justify-content-center justify-content-lg-start">Publicités sur les sites web</a></li>
               <li><a href="<?php path('page/search-engine-ads')?>" class="justify-content-center justify-content-lg-start">Publicités sur les moteurs de recherche</a></li>
               <li><a href="<?php path('page/led-pannels-ads')?>" class="justify-content-center justify-content-lg-start">Panneaux LED</a></li>
+              <li><a href="<?php path('page/push-vocal')?>" class="justify-content-center justify-content-lg-start">Push Vocal</a></li>
               <li><a href="<?php path('page/sms')?>" class="justify-content-center justify-content-lg-start">SMS Marketing</a></li>
-              <li><a href="<?php path('page/chatbot')?>" class="justify-content-center justify-content-lg-start">Chatbot WhatsApp</a></li>
+              <li><a href="<?php path('page/chatbot')?>" class="justify-content-center justify-content-lg-start">Sondages USSD</a></li>
             </ul>
           </div>
           <div class="col col-12 col-md-6 col-xl-3 mt-5 mt-md-0">

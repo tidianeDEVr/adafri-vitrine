@@ -90,6 +90,9 @@ a:hover {
     width: 90%;
     background-color: red;
 }
+.blue-card-section .container{
+    max-width: 1290px;
+}
 
 footer {
     background-color: #1E1E1E;

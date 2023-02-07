@@ -1,5 +1,7 @@
 <!-- Meta Tags -->
-<title>Adafri - Outil Marketing | Publicité Afrique | Adafri </title>
+<title>Adafri - Conditions générales d'utilisations </title>
+<meta name="description" content="Nous vous prions de lire les conditions générales avec une attention particulière car l’utilisation de adafri.com suppose leur acceptation entière et sans réserve. adafri.com est un contenu hébergé sur Internet et exploité par notre société, société à responsabilités limités de droit senegalais, immatriculée au registre de commerce de Dakar sous le numéro SN DKR 2019 B 18059 et dont le siège social est situé à Dakar. Les présentes conditions générales de vente des produits/services constituent des clauses contractuelles applicables à tout achat par tout utilisateur sur le site Web. Les termes «vous» et «utilisateur» désignent l'utilisateur final accédant au site Web. Les termes «fournisseurs de services » désignent les prestataires de services tiers. Les termes autour du pronom personnel «nous» désignent, ses franchiseurs, ses affiliés et ses partenaires. Le terme « site » désigne adafri.com">
+<meta name="keywords" content="Conditions générales d'utilisations">
 <?php 
     include("cgu.css.php");
     echo(START_TAGS);

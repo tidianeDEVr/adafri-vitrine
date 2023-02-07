@@ -1,10 +1,10 @@
-<!-- Meta Tags -->
-<title>Tarifs Ecrans leds dakar -Abidjan |Adafri</title>
-<meta name="description" content="Tarif unique pour les écrans leds à Dakar, bamako, Abidjan ou Accra. Envoyez votre pub aux régies d'écrans leds en Afrique une seule fois.">
-<meta name="keywords" content="Atlantis, Auchan, Panneaux leds, publicités panneaux leds">
+<!-- Meta Tags  -->
+<title>Tarifs Radio | Pub radio locale | Adafri</title>
+<meta name="description" content="Campagne pub sur les radios locales au Sénégal et en côte d'ivoire au prix de $17/spot. Centralisez et envoyez sur les radios au même tarif et en une fois">
+<meta name="keywords" content="Radio Sénégal, campagne publicitaires radio, radio ads">
 
 <?php 
-    include("led-pannels.css.php");
+    include("radio.css.php");
     echo(START_TAGS);
     require_once(ROOT_VIEWS_INC."menu.inc.php");
 ?>
@@ -14,9 +14,10 @@
     <div class="container">
         <div class="text-center">
             <div class="col">
-                <h2><span>5000 m²</span> de panneaux dans les <span>capitales</span></h2>
+                <h2>Radio en <span>local</span> ou en <span>panaf</span> à vous le choix !</h2>
                 <p>
-                    Profitez d’un réseau sur <span>Dakar, Abidjan, Bamako</span> et <span>Accra</span>.<br> Dupliquez votre annonce des sites web vers un ensemble de panneaux Outdoor répartis sur les meilleurs axes des capitales.
+                    Chez Adafri, nous croyons que la radio est un moyen puissant de <span>diffusion</span> et de <span>répétition pédagogique</span><br>
+                    d'informations publicitaires auprès de vos <span>prospects</span> et <span>clients</span>.
                 </p>
             </div>
         </div>
@@ -27,22 +28,22 @@
 <section class="second-section py-2">
     <div class="container">
         <div class="row">
-            <div class="col text-center order-2">
+            <div class="col text-start order-2">
                 <div class="d-flex flex-column justify-content-center h-100">
-                    <h3>Des écrans aussi dans les supermarchés de Dakar</h3>
+                    <h3>Un achat malin: une radio locale à $20</h3>
                     <p class="mt-2">
-                    Une rencontre instantanée entre les marques et les consommateurs, au cœur des espaces qu’ils fréquentent au quotidien.
+                        Choisissez la ou les radios locales qui diffuseront votre spot de 10 secondes aux horaires de votre choix. Nous avons sélectionné le top 5 local des radios en Afrique de l'Ouest.
                     </p>
                     <div class="mt-2">
                         <a href="https://app.adafri.com/" target="_blank" class="yellow-btn">
-                            Créer un compte gratuitement
+                            Simuler un devis
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col order-1 ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/billboard.webp')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/radio.png')?>" alt="adafri">
                 </div>
             </div>
         </div>
@@ -58,13 +59,16 @@
             bonne nouvelle, c’est que vous pouvez y accéder.
         </p>
         <div class="btn pt-3">
-            <a target="_blank"
-            href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
+            <a 
+            target="_blank"
+            href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">
+                Prendre rendez-vous
+            </a>
         </div>
     </div>
 </section>
 
-<!-- join section  --> 
+<!-- join section  -->
 <section class="join-section py-5">
     <div class="container">
         <div class="row join-cards">

@@ -7,9 +7,8 @@
             </div>
             <div class="list d-none d-sm-block">
                 <ul class="d-flex align-items-center justify-content-between ">
-                     <li><a href="<?php path('page/solutions') ?>">Nos Solutions</a></li>
+                     <li><a href="<?php path('page/accueil#solutions') ?>">Nos Solutions</a></li>
                      <li><a href="">Le Simulateur</a></li>
-                     <li><a href="<?php path('page/chatbot')?>">Le Chatbot</a></li>
                      <li><a href="https://blog.adafri.com/" target="_blank">Le Blog</a></li>
                 </ul>
             </div>

@@ -1,5 +1,6 @@
 <style>
-    .hero-section {
+     /* hero  section  */
+     .hero-section {
         background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.png')?>);
         background-position: center;
         background-repeat: no-repeat;
@@ -20,66 +21,29 @@
         color: #fff;
         font-weight: 400;
         margin-top: 20px;
-        font-size: 20px;
-    }
-    .hero-section .col img {
-        width: 750px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-
-    }
-
-    .presentation-section {
-        background-color: #F6F6F6;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    .presentation-section .carousel-holder {
-        height: 400px;
-    }
-    .presentation-section .title h4{
-        color: #2344C3;
-    }
-    .presentation-section .title p {
-        margin-top: 20px;
         font-size: 16px;
-        color: #505050;
-        font-weight: 400;
     }
-    .presentation-section .title p span {
-        font-weight: 500;
-        color: #2344C3;
+
+    .second-section {
+        background-color: #F6F6F6;
     }
-    .presentation-section .cards .card {
-        background-color: #fff;
-        border: none;
-        padding: 20px;
-        position: relative;
-        padding-bottom: 60px;
+    .second-section .col img {
+        max-width: 400px;
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
     }
-    .presentation-section .cards .card h6 {
+    .second-section .col h3 {
         color: #2344C3;
         font-weight: 600;
-        font-size: 24px;
     }
-    .presentation-section .cards .card p {
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 26px;
+    .second-section .col p {
         color: #505050;
-    }
-    .presentation-section .cards .card .btn {
-        position: absolute;
-        bottom: 20px;
-        left: 0;
+        font-weight: 300;
     }
 
-    /* blue-card section  */
+    /* blue card section  */
     .blue-card-section {
         padding-top: 50px;
-        padding-bottom: 50px;
         color: #fff;
         background-color: #F6F6F6;
         padding-bottom: 10px;
@@ -103,8 +67,7 @@
     .blue-card-section .container p {
         font-weight: 300;
         font-size: 18px;
-        line-height: 30px;
-        
+        line-height: 30px;   
     }
 
     /* join section  */

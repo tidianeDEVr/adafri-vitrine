@@ -1,5 +1,7 @@
 <!-- Meta Tags -->
-<title>Adafri - Outil Marketing | Publicité Afrique | Adafri </title>
+<title>Adafri - Politiques de confidentialité</title>
+<meta name="description" content="Nous vous prions de lire nos politiques de confidentialité qui determinent l'ensemble des droits et obligations de nos utilisateurs.">
+<meta name="keywords" content="Politiques de confidentialité">
 <?php 
     include("pc.css.php");
     echo(START_TAGS);

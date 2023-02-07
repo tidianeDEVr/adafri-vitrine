@@ -8,17 +8,12 @@ use ism\lib\AbstractController;
 
 class PageController extends AbstractController {
 
-    private AbstractModel $model;
     public function __construct(){
         parent::__construct();
     }
 
     public function accueil(){
         $this->render("pages/home/index");
-    }
-
-    public function solutions(){
-        $this->render("pages/solutions/solutions");
     }
 
     public function conditions_generales_utilisation(){
@@ -54,11 +49,15 @@ class PageController extends AbstractController {
     }
 
     public function radio(){
-        $this->render("pages/led-pannels/led-pannels");
+        $this->render("pages/radio/radio");
     }
 
     public function ussd(){
         $this->render("pages/ussd/ussd");
+    }
+
+    public function push_vocal(){
+        $this->render("pages/push-vocal/push-vocal");
     }
 
     public function simulator(){

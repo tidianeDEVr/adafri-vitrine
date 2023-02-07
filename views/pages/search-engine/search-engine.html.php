@@ -1,5 +1,8 @@
 <!-- Meta Tags -->
-<title>Adafri - Outil Marketing | Publicité Afrique | Adafri </title>
+<title>Campagnes SEA Afrique sans CB | Adafri</title>
+<meta name="description" content="Annonce sur le moteur de recherche google sans Carte Bancaire. Adafri est automatisé aux inventaires Google ad.">
+<meta name="keywords" content="google ads en Afrique, search engine ads Africa, Google ads simplifié">
+
 <?php 
     include("search-engine.css.php");
     echo(START_TAGS);

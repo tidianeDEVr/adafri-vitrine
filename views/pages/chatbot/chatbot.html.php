@@ -1,5 +1,8 @@
 <!-- Meta Tags -->
-<title>Adafri - Outil Marketing | Publicité Afrique | Adafri </title>
+<title>Adafri - Chatbots </title>
+<meta name="description" content="Construisez un parcours prédéfini pour des messagess automatisés sur whatsapp.">
+<meta name="keywords" content="Whatsapp Chatbot, Chatbot, Réponses automatique par whatsapp, vente par robots">
+
 <?php 
     include("chatbot.css.php");
     echo(START_TAGS);
