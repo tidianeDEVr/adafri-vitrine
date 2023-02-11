@@ -65,12 +65,12 @@
 
     .carrousel div:nth-child(8) {
         transform: rotateY(280deg) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider7.png')?>) no-repeat center center/cover      
+        background:url(<?php echo(WEB_ROOT.'assets/images/slider8.png')?>) no-repeat center center/cover      
     }
 
     .carrousel div:nth-child(9) {
         transform: rotateY(320deg) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider7.png')?>) no-repeat center center/cover      
+        background:url(<?php echo(WEB_ROOT.'assets/images/slider9.png')?>) no-repeat center center/cover      
     }
     .controls {
         width: 100%;

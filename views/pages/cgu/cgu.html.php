@@ -9,7 +9,7 @@
 ?>
 
 <!-- hero section  -->
-<section class="hero-section">
+<section class="hero-section hero-info">
     <div class="container">
         <h1>Conditions générales d'utilisations</h1>
         <p>

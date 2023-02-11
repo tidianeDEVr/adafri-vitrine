@@ -10,7 +10,7 @@
 ?>
 
 <!-- hero section  -->
-<section class="hero-section">
+<section class="hero-section hero-section-sm">
     <div class="container">
         <div class="text-center">
             <div class="col">
@@ -68,12 +68,12 @@
 <section class="third-section">
     <div class="container py-2">
         <div class="row">
-            <div class="col col-4">
+            <div class="col col-12 col-md-4">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/goal.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/goal.png')?>" alt="goal">
                 </div>
             </div>
-            <div class="col col-8 text-center">
+            <div class="col col-12 col-md-8 text-center">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <h3>Payez uniquement pour des clics</h3>
                     <p>Vous ne serez facturé que pour les personnes qui cliquent sur vos annonces.</p>
@@ -92,7 +92,7 @@
         <div class="row join-cards">
             <div class="col col-12 col-md-6">
                 <div class="card">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="adafri">        
+                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="logo adafri">        
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">

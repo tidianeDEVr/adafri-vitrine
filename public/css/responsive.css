@@ -10,6 +10,22 @@
         height: 100vh !important;
         text-align: center !important;
     }
+    .hero-section h2 {
+        font-size: 25px !important;
+    }
+    .hero-section-sm {
+        height: auto !important;
+        max-height: 65vh !important;
+        padding-bottom: 50px !important;
+        padding-top: 100px !important;
+    }
+    .hero-info .container{
+        padding-top: 250px !important;
+    }
+    .hero-info .container h1 {
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
     .hero-section .shape {
         display: none;
     }
@@ -31,5 +47,19 @@
     }
     .presentation-section {
         padding-top: 50px !important;
+    }
+    .presentation-section h2,
+    .communications h5, 
+    .blue-card-section h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+    .second-section img, .third-section img {
+        max-width: 275px !important;
+        margin-top: 50px;
+    }
+    .blue-card-section p {
+        font-size: 18px !important;
+        line-height: 26px !important;
     }
 }

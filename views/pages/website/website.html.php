@@ -9,7 +9,7 @@
 ?>
 
 <!-- hero section  -->
-<section class="hero-section">
+<section class="hero-section hero-section-sm">
     <div class="container">
         <div class="text-center">
             <div class="col">
@@ -58,11 +58,11 @@
             le jargon technique des régies, et tout le monde se <br>
             retrouve facilement chez ADAFRI.
         </p>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex flex-column flex-sm-row justify-content-center">
             <div class="btn pt-3">
                 <a href="" class="green-btn">Télécharger le guide</a>
             </div>
-            <div class="btn pt-3">
+            <div class="btn pt-3 mt-3 mt-sm-0">
                 <a href="" class="yellow-btn">Télécharger la taille des annonces</a>
             </div>
         </div>
@@ -73,12 +73,12 @@
 <section class="third-section">
     <div class="container py-2">
         <div class="row">
-            <div class="col col-5">
+            <div class="col col-12 col-md-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="<?php echo(WEB_ROOT.'assets/images/ProgressBar.png')?>" alt="adafri">
                 </div>
             </div>
-            <div class="col col-7 text-center">
+            <div class="col col-12 col-md-7">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <h3>Décidez de votre budget publicitaire</h3>
                     <p>Décidez du budget de vos publicités et contrôlez vos performances en temps réel. Il est possible de modifier à tout moment une campagne.</p>

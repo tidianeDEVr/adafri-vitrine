@@ -10,8 +10,8 @@
         <div id="sms"></div>
         <div id="radio"></div>
         <div id="leds"></div>
-        <div id=""></div>
-        <div id=""></div>
+        <div id="tv"></div>
+        <div id="push-vocal"></div>
     </div>
     <div class="controls d-flex justify-content-center">
         <button class="mx-1" onclick="carrousel('-')">
@@ -55,5 +55,11 @@
     })
     document.querySelector('#leds').addEventListener('click', ()=>{
         window.location.href = '<?php echo(WEB_ROOT)?>page/led-pannels-ads';
+    })
+    document.querySelector('#tv').addEventListener('click', ()=>{
+        window.location.href = '<?php echo(WEB_ROOT)?>page/tv';
+    })
+    document.querySelector('#push-vocal').addEventListener('click', ()=>{
+        window.location.href = '<?php echo(WEB_ROOT)?>page/push-vocal';
     })
 </script>

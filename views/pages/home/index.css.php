@@ -12,6 +12,9 @@
         position: relative;
         color: #fff;
     }   
+    .hero-section .container {
+        min-height: 100vh !important;
+    }
     .hero-section .shape {
         position: absolute;
         bottom: 0;
@@ -86,7 +89,7 @@
     /* Presentation  Section */
     .presentation-section {
         min-height: 150vh;
-        padding-top: 150px;
+        padding-top: 100px;
         background-color: #F6F6F6;
     }
     .presentation-section h2 {

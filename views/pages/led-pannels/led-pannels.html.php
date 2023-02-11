@@ -10,7 +10,7 @@
 ?>
 
 <!-- hero section  -->
-<section class="hero-section">
+<section class="hero-section hero-section-sm">
     <div class="container">
         <div class="text-center">
             <div class="col">
@@ -42,7 +42,7 @@
             </div>
             <div class="col order-1 ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/billboard.webp')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/billboard.webp')?>" alt="billboard">
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
         <div class="row join-cards">
             <div class="col col-12 col-md-6">
                 <div class="card">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="adafri">        
+                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="logo adafri">        
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
@@ -80,7 +80,7 @@
             </div>
             <div class="col col-12 col-md-6 mt-5 mt-sm-0">
                 <div class="card card-right">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="adafri">        
+                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="white headset">        
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">

@@ -5,7 +5,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 50vh;
-        padding-top: 150px;
+        padding-top: 100px;
         text-align: center;
         color: #fff;
     }

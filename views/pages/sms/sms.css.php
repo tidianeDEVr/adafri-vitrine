@@ -4,8 +4,8 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 50vh;
-        padding-top: 150px;
+        min-height: 300px;
+        padding-top: 100px;
         position: relative;
     }
     .hero-section .col h2 {

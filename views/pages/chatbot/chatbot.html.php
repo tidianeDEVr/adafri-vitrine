@@ -10,7 +10,7 @@
 ?>
 
 <!-- hero section  -->
-<section class="hero-section">
+<section class="hero-section hero-section-sm">
     <div class="container">
         <div class="text-center">
             <div class="col">
@@ -27,7 +27,7 @@
 <section class="second-section">
     <div class="container">
         <div class="row">
-            <div class="col col-7 text-center">
+            <div class="col col-md-7 col-12 text-center">
                 <div class="h-100 d-flex flex-column justify-content-center">
                     <h5>Un ChatBot sans ligne de code</h5>
                     <p class="mt-3">
@@ -43,9 +43,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-5">
-                <div>
-                    <img src="<?php echo(WEB_ROOT.'assets/images/bot.png')?>" alt="adafri">
+            <div class="col col-md-5 col-12">
+                <div class="d-flex align-items-center justify-content-center h-100">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/bot.png')?>" alt="chatbot whatsapp">
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
 <section class="tarifs-sections">
     <div class="container">
         <h2 class="text-center mb-5">Grille Tarifaire</h2>
-        <div class="row">
+        <div class="row g-4 g-md-2">
             <div class="col">
                 <div>
                     <div class="card">

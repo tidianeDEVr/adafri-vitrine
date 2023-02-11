@@ -10,7 +10,7 @@
 
 
 <!-- hero section  -->
-<section class="hero-section">
+<section class="hero-section hero-info hero-section-sm">
     <div class="container">
         <h1>Politiques de confidentialité</h1>
         <p>

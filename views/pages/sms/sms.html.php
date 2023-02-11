@@ -10,10 +10,10 @@
 ?>
 
 <!-- hero section  -->
-<section class="hero-section">
+<section class="hero-section hero-section-sm">
     <div class="container">
         <div class="row">
-            <div class="col col-8">
+            <div class="col col-12 col-md-8" style="z-index:2;">
                 <div>
                     <h2>Vos Campagnes <span>SMS Marketing</span><br>En Afrique</h2>
                     <p>
@@ -21,9 +21,9 @@
                     </p>
                 </div>
             </div>
-            <div class="col col-4">
+            <div class="col col-sm-4 col-12">
                 <div>
-                    <img src="<?php echo(WEB_ROOT.'assets/images/wew.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/wew.png')?>" alt="sms campaigns">
                 </div>
             </div>
         </div>
@@ -77,13 +77,13 @@
 <section class="third-section">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col col-12 col-md-6">
                 <div class="h-100 d-flex align-items-center justify-content-center">
                     <img src="<?php echo(WEB_ROOT.'assets/images/5fcfa.webp')?>" alt="adafri">
                 </div>
             </div>
-            <div class="col">
-                <div class="h-100 d-flex flex-column justify-content-center">
+            <div class="col col-12 col-md-6">
+                <div class="h-100 d-flex flex-column justify-content-center mt-3 mt-md-0">
                     <h3>Des SMS plus économiques</h3>
                     <p class="mt-3">
                         Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing<br>

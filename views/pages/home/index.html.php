@@ -11,7 +11,7 @@
 
 <!-- hero section -->
 <section class="hero-section">
-    <div class="container h-100">
+    <div class="container">
         <div class="row flex-sm-nowrap row-reverse h-100">
             <div class="col col-12 col-lg-6 order-2 order-sm-1">
                 <div class="animate__animated animate__backInDown">
@@ -34,7 +34,7 @@
             </div>
             <div class="col col-12 col-lg order-1 order-sm-2">
                 <div class='hero-img d-flex align-items-center justify-content-center w-100'>
-                    <img src="<?php echo(WEB_ROOT.'assets/images/img-header.png') ?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/img-header.png') ?>" alt="header">
                 </div>
             </div>
         </div>
@@ -78,14 +78,14 @@
             </div>
             <div class="col col-12 col-lg-8">
                 <div class="advertisers-img">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/clients.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/clients.png')?>" alt="clients">
                 </div>
             </div>
         </div>
         <div class="row communications">
             <div class="col col-12 col-lg-6 order-2 order-lg-1">
                 <div class="communication-img">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/dashboard.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/dashboard.png')?>" alt="communication">
                 </div>
             </div>
             <div class="col col-12 col-lg-6 col-right order-1 order-lg-2">
@@ -137,7 +137,7 @@
 <!-- blue card section  -->
 <section class="blue-card-section">
     <div class="container text-center py-5">
-        <img src="<?php echo(WEB_ROOT.'assets/images/%.png')?>" alt="adafri">
+        <img src="<?php echo(WEB_ROOT.'assets/images/%.png')?>" alt="percentage">
         <h2 class="mt-3">Une ligne de crédit minimale de $500.</h2>
         <p class="my-4">
             Concevez, déployez , gérez et suivez à partir d'une<br>
@@ -156,7 +156,7 @@
         <div class="row join-cards">
             <div class="col col-12 col-md-6">
                 <div class="card">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="adafri">        
+                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="logo adafri">        
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
@@ -166,7 +166,7 @@
             </div>
             <div class="col col-12 col-md-6 mt-5 mt-sm-0">
                 <div class="card card-right">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="adafri">        
+                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="headset">        
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">

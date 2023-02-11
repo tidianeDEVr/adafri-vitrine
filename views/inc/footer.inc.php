@@ -12,7 +12,7 @@
               <li><a href="<?php path('page/led-pannels-ads')?>" class="justify-content-center justify-content-lg-start">Panneaux LED</a></li>
               <li><a href="<?php path('page/push-vocal')?>" class="justify-content-center justify-content-lg-start">Push Vocal</a></li>
               <li><a href="<?php path('page/sms')?>" class="justify-content-center justify-content-lg-start">SMS Marketing</a></li>
-              <li><a href="<?php path('page/chatbot')?>" class="justify-content-center justify-content-lg-start">Sondages USSD</a></li>
+              <li><a href="<?php path('page/ussd')?>" class="justify-content-center justify-content-lg-start">Sondages USSD</a></li>
             </ul>
           </div>
           <div class="col col-12 col-md-6 col-xl-3 mt-5 mt-md-0">
@@ -54,7 +54,7 @@
                 Partenaire officiel de Google !
               </p>
               <a href="https://www.google.com/partners/agency?id=3963995595" target="_blank">
-                <img src="<?php echo(WEB_ROOT.'assets/images/PartnerBadge.png')?>" alt="">
+                <img src="<?php echo(WEB_ROOT.'assets/images/PartnerBadge.png')?>" alt="google partner image">
               </a>
             </div>
           </div>
