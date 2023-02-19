@@ -14,9 +14,9 @@
     <div class="container">
         <div class="text-center">
             <div class="col">
-                <h2>Lorem <span>ipsum dolor</span>  sit amet consectetur</h2>
+                <h2><span>Ecritels</span> sur les <span>chaines télés locales</span></h2>
                 <p>
-                    Lorem <span>ipsum dolor sit amet</span>, consectetur adipiscing elit. Pellentesque at eleifend nisi. Praesent vehicula commodo orci et porttitor. Pellentesque tristique lorem vel lorem efficitur tristique. In <span>dolor nunc</span>, lacinia nec magna id, laoreet venenatis orci.
+                    Passez directement au <span>message</span> et <span>faites retenir votre numéro</span>
                 </p>
             </div>
         </div>
@@ -29,9 +29,10 @@
         <div class="row">
             <div class="col text-start order-2">
                 <div class="d-flex flex-column justify-content-center h-100">
-                    <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                    <h3>Invitez vous a la télévision</h3>
                     <p class="mt-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at eleifend nisi.
+                        Les chaines locales du Sénégal et de la Côte d'Ivoire
+                        sont disposées a recevoir votre message pour les téléspectateurs.
                     </p>
                     <div class="mt-2">
                         <a href="https://app.adafri.com/" target="_blank" class="yellow-btn">
@@ -42,7 +43,7 @@
             </div>
             <div class="col order-1 ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/tv.png')?>" alt="ussd survey">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/tv.webp')?>" alt="ussd survey">
                 </div>
             </div>
         </div>
@@ -77,7 +78,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>

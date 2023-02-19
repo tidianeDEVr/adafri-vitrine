@@ -1,7 +1,7 @@
 <style>
     /* hero  section  */
     .hero-section {
-        background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.png')?>);
+        background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.webp')?>);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -70,6 +70,25 @@
         line-height: 30px;   
     }
 
+    /* third section */
+    .third-section {
+        background-color: #F6F6F6;
+    }
+
+    .third-section h3 {
+         color: #2344C3;
+         font-size: 32px;
+         font-weight: 600;
+    }
+    .third-section p {
+        font-size: 16px;
+        color: #505050;
+    }
+
+    .third-section img {
+        -webkit-animation: image-move 2s ease-in-out infinite both;
+        animation: image-move 2s ease-in-out infinite both;
+    }
     /* join section  */
     .join-section {
         padding-bottom: 50px;

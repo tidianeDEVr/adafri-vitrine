@@ -16,8 +16,8 @@
             <div class="col">
                 <h2>Push <span>Vocal</span></h2>
                 <p>
-                    Chez Adafri, nous croyons que la radio est un moyen puissant de <span>diffusion</span> et de <span>répétition pédagogique</span><br>
-                    d'informations publicitaires auprès de vos <span>prospects</span> et <span>clients</span>.
+                    Envoyez et diffusez un message vocale dans la langue de votre choix 
+                    a vos clients en faisant sonner leurs téléphones.
                 </p>
             </div>
         </div>
@@ -30,9 +30,11 @@
         <div class="row">
             <div class="col text-center order-2">
                 <div class="d-flex flex-column justify-content-center h-100">
-                    <h3>Des écrans aussi dans les supermarchés de Dakar</h3>
+                    <h3>Faites sonner les téléphones</h3>
                     <p class="mt-2">
-                    Une rencontre instantanée entre les marques et les consommateurs, au cœur des espaces qu’ils fréquentent au quotidien.
+                        Un moyen pratique d’émettre des messages vocaux à travers les téléphones mobiles, 
+                        mais également fixes. Il s’utilise notamment dans les campagnes de marketing. Ce service 
+                        permet d’informer, d’alerter, et même de questionner.
                     </p>
                     <div class="mt-2">
                         <a href="https://app.adafri.com/" target="_blank" class="yellow-btn">
@@ -43,7 +45,7 @@
             </div>
             <div class="col order-1 ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/ring.png')?>" alt="ring">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/ring.webp')?>" alt="ring">
                 </div>
             </div>
         </div>
@@ -71,15 +73,15 @@
         <div class="row">
             <div class="col col-12 col-md-4">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/push.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/push.webp')?>" alt="adafri">
                 </div>
             </div>
             <div class="col col-12 col-md-8">
                 <div class="d-flex flex-column justify-content-center h-100">
-                    <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                    <p>Il s’agit pour nous d’un outil puissant de capture pour des sondages à grande échelle à travers un parcours de questions/réponses.</p>
+                    <h3>Mailing vocal</h3>
+                    <p>Un nouveau moyen pur un message à faire passer. Faites écouter à vos clients votre message préenreegistré.</p>
                     <div class="mt-3">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>
@@ -97,7 +99,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>

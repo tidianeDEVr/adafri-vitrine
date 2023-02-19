@@ -2,19 +2,18 @@
 
     /* Hero Section */
     .hero-section {
-        background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.png')?>);
+        background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.webp')?>);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 75vh;
         max-width: 100vw;
         min-height: 600px !important;
         position: relative;
         color: #fff;
     }   
-    .hero-section .container {
+    /* .hero-section .container {
         min-height: 100vh !important;
-    }
+    } */
     .hero-section .shape {
         position: absolute;
         bottom: 0;

@@ -42,7 +42,7 @@
             </div>
             <div class="col ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/google 1.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/google-1.webp')?>" alt="adafri">
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
         <div class="row">
             <div class="col col-12 col-md-4">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/goal.png')?>" alt="goal">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/goal.webp')?>" alt="goal">
                 </div>
             </div>
             <div class="col col-12 col-md-8 text-center">
@@ -78,7 +78,7 @@
                     <h3>Payez uniquement pour des clics</h3>
                     <p>Vous ne serez facturé que pour les personnes qui cliquent sur vos annonces.</p>
                     <div class="mt-3">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="green-btn">Prendre rendez-vous</a>
+                        <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
                     </div>
                 </div>
             </div>

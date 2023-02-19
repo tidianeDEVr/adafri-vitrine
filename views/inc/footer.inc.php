@@ -54,7 +54,7 @@
                 Partenaire officiel de Google !
               </p>
               <a href="https://www.google.com/partners/agency?id=3963995595" target="_blank">
-                <img src="<?php echo(WEB_ROOT.'assets/images/PartnerBadge.png')?>" alt="google partner image">
+                <img src="<?php echo(WEB_ROOT.'assets/images/partnerbadge.webp')?>" alt="google partner image">
               </a>
             </div>
           </div>

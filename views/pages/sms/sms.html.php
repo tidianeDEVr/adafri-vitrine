@@ -17,7 +17,8 @@
                 <div>
                     <h2>Vos Campagnes <span>SMS Marketing</span><br>En Afrique</h2>
                     <p>
-                        Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing elit. Morbi<br> dui neque, consectetur ac malesuada et, <span>porttitor</span>  ac dui.
+                        Envoyez des <span>alertes</span>, des <span>rappels</span>, des <span>messages uniques</span><br>
+                        vers vos clients, mais aussi pour informer et communiquer. Dans 17 pays et au prix local.
                     </p>
                 </div>
             </div>
@@ -36,10 +37,10 @@
         <div class="row">
             <div class="col text-center">
                 <div class="d-flex flex-column justify-content-center h-100">
-                    <h3>Bulk SMS: Soyez + proche de vos clients</h3>
+                    <h3>Bulk SMS:</h3>
                     <p class="mt-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui<br>
-                        neque, consectetur ac malesuada et, porttitor ac dui.
+                        Notre solution peut également servir aux entreprises en interne, <br>
+                        pour les besoins de communications entre l'administration et ses employés.
                     </p>
                     <div class="mt-2">
                         <a href="https://app.adafri.com/" target="_blank" class="yellow-btn">
@@ -50,7 +51,7 @@
             </div>
             <div class="col ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/sms-1.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/sms.webp')?>" alt="adafri">
                 </div>
             </div>
         </div>
@@ -60,7 +61,7 @@
 <!-- blue card section  -->
 <section class="blue-card-section">
     <div class="container text-center py-5">
-        <h2 class="mt-3">Des SMS plus rapides</h2>
+        <h2 class="mt-3">Des SMS, dans 17 pays et au prix local</h2>
         <p class="my-4">
         Remontez votre base de données via fichier CSV,<br>
         ou créez des groupes manuellement sur la plateforme.<br>
@@ -68,7 +69,7 @@
         notre robot s’en occupe.
         </p>
         <div class="btn pt-3">
-            <a href="" class="yellow-btn">Accéder au crédit publicitaire</a>
+            <a href="" class="yellow-btn">Télécharger le guide</a>
         </div>
     </div>
 </section>
@@ -86,12 +87,11 @@
                 <div class="h-100 d-flex flex-column justify-content-center mt-3 mt-md-0">
                     <h3>Des SMS plus économiques</h3>
                     <p class="mt-3">
-                        Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing<br>
-                        elit. Morbi dui neque, consectetur ac malesuada et,<br> 
-                        <span>porttitor</span> ac dui.
+                        A partir de <span>5 FCFA</span>, accédez a cette solution de proximité.<br>
+                        La tarification varie selon les zones et au reste plus bas
                     </p>
                     <div class="mt-3">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>

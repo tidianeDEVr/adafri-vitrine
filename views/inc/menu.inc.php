@@ -5,7 +5,7 @@
                         <img src="<?php echo(WEB_ROOT.'assets/images/logo_adafri.svg')?>" alt="logo adafri">
                     </a>
             </div>
-            <div class="list d-none d-sm-block">
+            <div class="list d-none d-lg-block">
                 <ul class="d-flex align-items-center justify-content-between ">
                      <li><a href="<?php path('page/accueil#solutions') ?>">Nos Solutions</a></li>
                      <li><a href="<?php path('page/simulator')?>">Le Simulateur</a></li>
@@ -14,7 +14,7 @@
             </div>
             <div class="d-flex align-items-center">
                 <a href='https://app.adafri.com/' target="_blank" class="yellow-btn blue-border">Connexion</a>
-                <button data-bs-toggle="modal" data-bs-target="#mobileMenuModal" class="mobile-menu-btn d-sm-none"><span class="material-symbols-outlined">menu</span></button>
+                <button data-bs-toggle="modal" data-bs-target="#mobileMenuModal" class="mobile-menu-btn d-lg-none"><span class="material-symbols-outlined">menu</span></button>
             </div>
     </div>
 </nav>
@@ -60,6 +60,7 @@
         padding-bottom: 10px;
         font-size: 30px;
         border-bottom: 2px solid #fff;
+        color: #2344C3;
     }
     .modal-dialog ul {
         list-style-type: none;

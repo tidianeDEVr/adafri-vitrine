@@ -1,6 +1,6 @@
 <style>
     .hero-section {
-        background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.png')?>);
+        background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.webp')?>);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

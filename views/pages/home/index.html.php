@@ -1,6 +1,6 @@
 <!-- Meta Tags -->
 <title>Outil Marketing | Publicité  Afrique | Adafri</title>
-<meta name="description" content=" Publicité omnicanale sur toute l'Afrique.Prenez le contrôle de plusieurs régies publicitaires. Communiquez sur toute l'Afrique.">
+<meta name="description" content="Publicité omnicanale sur toute l'Afrique.Prenez le contrôle de plusieurs régies publicitaires. Communiquez sur toute l'Afrique.">
 <meta name="keywords" content="Outil Marketing, Publicité  Afrique, Adafri, Google Ads en Afrique">
 
 <?php 
@@ -12,7 +12,7 @@
 <!-- hero section -->
 <section class="hero-section">
     <div class="container">
-        <div class="row flex-sm-nowrap row-reverse h-100">
+        <div class="row flex-lg-nowrap row-reverse h-100">
             <div class="col col-12 col-lg-6 order-2 order-sm-1">
                 <div class="animate__animated animate__backInDown">
                     <h1>Marketplace<br><span class="yellow">Publicitaire</span></h1><br>
@@ -23,18 +23,18 @@
                     </p>
                     <div class="d-flex mt-5 flex-column flex-sm-row">
                         <div class="d-flex align-items-center">
-                            <a href="" class="yellow-btn blue-border">Lancez vous</a>
+                            <a href="https://app.adafri.com" class="yellow-btn blue-border">Lancez vous</a>
                         </div>
-                        <div class="demo d-flex justify-content-center align-items-center mt-3 mt-sm-0">
-                            <img src="<?php echo(WEB_ROOT.'assets/images/headset.png') ?>" alt="adafri" class="headset">
-                            <a href="">Demander une demo</a>
+                        <div class="demo d-flex justify-content-center align-items-center mt-3 mt-sm-0 mb-2 mb-sm-0">
+                            <img src="<?php echo(WEB_ROOT.'assets/images/headset.webp') ?>" alt="adafri" class="headset">
+                            <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093">Demander une demo</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col col-12 col-lg order-1 order-sm-2">
+            <div class="col col-12 col-lg-6 order-1 order-sm-2">
                 <div class='hero-img d-flex align-items-center justify-content-center w-100'>
-                    <img src="<?php echo(WEB_ROOT.'assets/images/img-header.png') ?>" alt="header">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/img-header.webp') ?>" alt="header">
                 </div>
             </div>
         </div>
@@ -78,14 +78,14 @@
             </div>
             <div class="col col-12 col-lg-8">
                 <div class="advertisers-img">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/clients.png')?>" alt="clients">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/clients.webp')?>" alt="clients">
                 </div>
             </div>
         </div>
         <div class="row communications">
             <div class="col col-12 col-lg-6 order-2 order-lg-1">
                 <div class="communication-img">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/dashboard.png')?>" alt="communication">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/dashboard.webp')?>" alt="communication">
                 </div>
             </div>
             <div class="col col-12 col-lg-6 col-right order-1 order-lg-2">
@@ -99,7 +99,7 @@
                         plateforme intelligente, synchronisée à différents canaux.<br>
                         Devenez autonome dès aujourd’hui !
                     </p>
-                    <a href="" class="yellow-btn mt-3" >Commencer maintenant</a>
+                    <a href="https://app.adafri.com" class="yellow-btn mt-3" >Commencer maintenant</a>
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
                         Réajustez votre stratégie en fonction de vos résultats.
                     </p>
                     <div class="btn">
-                        <a href="" class="yellow-btn">Créez un compte gratuitement</a>
+                        <a href="https://app.adafri.com" class="yellow-btn">Créez un compte gratuitement</a>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                         adaptés à l’Afrique.
                     </p>
                     <div class="btn">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
 <!-- blue card section  -->
 <section class="blue-card-section">
     <div class="container text-center py-5">
-        <img src="<?php echo(WEB_ROOT.'assets/images/%.png')?>" alt="percentage">
+        <img src="<?php echo(WEB_ROOT.'assets/images/percent.png')?>" alt="percentage">
         <h2 class="mt-3">Une ligne de crédit minimale de $500.</h2>
         <p class="my-4">
             Concevez, déployez , gérez et suivez à partir d'une<br>
@@ -145,7 +145,7 @@
             Devenez autonome dès aujourd’hui !
         </p>
         <div class="btn pt-3">
-            <a href="" class="yellow-btn">Accéder au crédit publicitaire</a>
+            <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="yellow-btn">Accéder au crédit publicitaire</a>
         </div>
     </div>
 </section>
@@ -160,7 +160,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>

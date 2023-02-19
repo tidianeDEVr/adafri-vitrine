@@ -1,6 +1,6 @@
 <style>
     .hero-section {
-        background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.png')?>);
+        background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.webp')?>);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -11,7 +11,7 @@
     .hero-section .col h2 {
         color: #fff;
         font-weight: 600;
-        font-size: 44px;
+        font-size: 35px;
     }
     .hero-section .col h2 span , .hero-section .col p span {
         color: #FFE000;
@@ -32,7 +32,7 @@
         background-color: #F6F6F6;
     }
     .second-section .col img {
-        max-width: 200px;
+        max-width: 350px;
         -webkit-animation: image-move 2s ease-in-out infinite both;
         animation: image-move 2s ease-in-out infinite both;
     }

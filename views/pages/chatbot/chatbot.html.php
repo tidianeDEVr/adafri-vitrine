@@ -39,13 +39,13 @@
                         WhatsApp.
                     </p>
                     <div class="mt-3">
-                        <a href="" class="yellow-btn">Demarrer la conversation</a>
+                        <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="yellow-btn">Demarrer la conversation</a>
                     </div>
                 </div>
             </div>
             <div class="col col-md-5 col-12">
                 <div class="d-flex align-items-center justify-content-center h-100">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/bot.png')?>" alt="chatbot whatsapp">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/bot.webp')?>" alt="chatbot whatsapp">
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
 <!-- blue card section  -->
 <section class="blue-card-section">
     <div class="container text-center py-5">
-        <img src="<?php echo(WEB_ROOT.'assets/images/headset.png')?>" alt="adafri">
+        <img src="<?php echo(WEB_ROOT.'assets/images/headset.webp')?>" alt="adafri">
         <h2 class="mt-3">Prenez rendez-vous avec un de nos conseillers</h2>
         <p class="my-4">
             Nous sommes un outil dédié à toute activité commerciale,<br>
@@ -88,7 +88,7 @@
                             </ul>
                         </div>
                         <div class="btn position-absolute d-flex justify-content-center w-100">
-                            <a href="" class="yellow-btn">Choisir cette offre</a>
+                            <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="yellow-btn">Choisir cette offre</a>
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                             </ul>
                         </div>
                         <div class="btn position-absolute d-flex justify-content-center w-100">
-                            <a href="" class="yellow-btn">Choisir cette offre</a>
+                            <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="yellow-btn">Choisir cette offre</a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                             </ul>
                         </div>
                         <div class="btn position-absolute d-flex justify-content-center w-100">
-                            <a href="" class="yellow-btn">Choisir cette offre</a>
+                            <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="yellow-btn">Choisir cette offre</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>

@@ -41,7 +41,7 @@
             </div>
             <div class="col">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/sms-1.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/web.webp')?>" alt="adafri">
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col col-12 col-md-5">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/ProgressBar.png')?>" alt="adafri">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/progressbar.webp')?>" alt="adafri">
                 </div>
             </div>
             <div class="col col-12 col-md-7">
@@ -83,7 +83,7 @@
                     <h3>Décidez de votre budget publicitaire</h3>
                     <p>Décidez du budget de vos publicités et contrôlez vos performances en temps réel. Il est possible de modifier à tout moment une campagne.</p>
                     <div class="mt-3">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>

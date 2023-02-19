@@ -42,7 +42,7 @@
             </div>
             <div class="col order-1 ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/ussd.png')?>" alt="ussd survey">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/ussd.webp')?>" alt="ussd survey">
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>

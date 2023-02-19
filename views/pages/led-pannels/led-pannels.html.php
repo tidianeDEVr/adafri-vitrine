@@ -64,6 +64,31 @@
     </div>
 </section>
 
+<!-- third section  -->
+<section class="third-section">
+    <div class="container py-2">
+        <div class="row">
+            <div class="col col-12 col-md-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/billboard.webp')?>" alt="adafri">
+                </div>
+            </div>
+            <div class="col col-12 col-md-7">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <h3>Un tarif uniforme de Dakar a Accra</h3>
+                    <p>
+                        Le tarif de passage reste unique quelque soit la ville.<br> 
+                        Dupliquez vos annonces Google sur des écrans leds.
+                    </p>
+                    <div class="mt-3">
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- join section  --> 
 <section class="join-section py-5">
     <div class="container">
@@ -74,7 +99,7 @@
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a href="" class="yellow-btn">Lancez vous</a>
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
                     </div>
                 </div>
             </div>
