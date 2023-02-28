@@ -14,13 +14,19 @@
         width: 100% !important;
         margin-top: -55px;
     }
+    .simulator-section .amount {
+        position: relative !important;
+        padding: 10px 30px !important;
+        margin: 20px auto !important;
+    }
+    
 }
 
 
 /* mobile  */
 @media (max-width:768px) {
     .hero-section {
-        min-height: 100vh !important;
+        /* min-height: 100vh !important; */
         height: auto !important;
         text-align: center !important;
     }
