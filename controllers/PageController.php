@@ -64,5 +64,9 @@ class PageController extends AbstractController {
         $this->render("pages/simulator/simulator");
     }
 
+    public function tutorials(){
+        $this->render("pages/tutorials/tutorials");
+    }
+
 
 }

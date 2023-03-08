@@ -7,10 +7,10 @@
             </div>
             <div class="list d-none d-lg-block">
                 <ul class="d-flex align-items-center justify-content-between ">
-                     <li><a href="<?php path('page/accueil#solutions') ?>">Nos Solutions</a></li>
+                    <li><a href="<?php path('page/accueil#solutions') ?>">Nos Solutions</a></li>
+                    <li><a href="<?php path('page/tutorials')?>">Nos tutoriels</a></li>
                      <li><a href="<?php path('page/simulator')?>">Le Simulateur</a></li>
-                     <li><a href="https://blog.adafri.com/" target="_blank">Le Blog</a></li>
-                </ul>
+                    </ul>
             </div>
             <div class="d-flex align-items-center">
                 <a href='https://app.adafri.com/' target="_blank" class="yellow-btn blue-border">Connexion</a>
@@ -48,8 +48,7 @@
 
 <style>
     .modal-content {
-        background-color: #1E1E1E;
-        color: #fff;
+        background-color: #fff;
     }
     .modal-content button {
         background-color: transparent;
@@ -59,7 +58,7 @@
     .modal-dialog h4 {
         padding-bottom: 10px;
         font-size: 30px;
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #505050;
         color: #2344C3;
     }
     .modal-dialog ul {
@@ -72,8 +71,8 @@
     }
     .modal-dialog ul li a {
         text-decoration: none;
-        color: #fff;
-        font-weight: 600;
+        color: #505050;
+        font-weight: 400;
     }
 </style>
 

@@ -59,12 +59,6 @@
                             <button id="nav-ledoutdoor-tab" class="type-button" data-bs-toggle="tab" data-bs-target="#nav-ledoutdoor" type="button" role="tab" aria-controls="nav-ledoutdoor" aria-selected="false">led outdoor</button>
                         </div>
                     </div>
-                    <!-- <div class="col">
-                        <div class="card type-card type-ussd" onclick="changeActiveType('ussd')">
-                            <img src="<?php echo(WEB_ROOT.'assets/images/sliders/ussd.webp')?>" alt="web">
-                            <button id="nav-ussd-tab" class="type-button" data-bs-toggle="tab" data-bs-target="#nav-ussd" type="button" role="tab" aria-controls="nav-ussd" aria-selected="false">ussd</button>
-                        </div>
-                    </div> -->
                     <div class="col">
                         <div class="card type-card type-pushvocal" onclick="changeActiveType('pushvocal')">
                             <img src="<?php echo(WEB_ROOT.'assets/images/sliders/pushvocal.webp')?>" alt="web">
@@ -75,6 +69,12 @@
                         <div class="card type-card type-sms" onclick="changeActiveType('sms')">
                             <img src="<?php echo(WEB_ROOT.'assets/images/sliders/sms.webp')?>" alt="web">
                             <button id="nav-sms-tab" class="type-button" data-bs-toggle="tab" data-bs-target="#nav-sms" type="button" role="tab" aria-controls="nav-sms" aria-selected="false">sms</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card type-card type-tv" onclick="changeActiveType('tv')">
+                            <img src="<?php echo(WEB_ROOT.'assets/images/sliders/tv.webp')?>" alt="web">
+                            <button id="nav-tv-tab" class="type-button" data-bs-toggle="tab" data-bs-target="#nav-tv" type="button" role="tab" aria-controls="nav-tv" aria-selected="false">tv</button>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                             </p>
                             <div class="d-flex">
                                 <div class="">
-                                    <span class="label">Nombre de vues</span><br>
+                                    <span class="label">Nombre de vues (en Millions)</span><br>
                                     <div class="btn-group" role="group">
                                         <button type="button" class="btn btn-secondary" onclick="updateInput('web','-')">-</button>
                                         <button type="button" class="btn btn-secondary" id="web" style="pointer-events:none;">0</button>
@@ -105,7 +105,7 @@
                     <div class="tab-pane fade" id="nav-search" role="tabpanel" aria-labelledby="nav-search-tab" tabindex="0">
                         <div class="menu mt-5">
                             <h3>Publicités sur les moteurs de recherche</h3>
-                            <h4>Tarif ≈ <span>$0.08/clic</span></h4>
+                            <h4>Tarif ≈ <span>$100/875 clics</span></h4>
                             <p>
                                 Atteignez les internautes lorsqu'ils effectuent une recherche sur les 
                                 produits ou services avec les mots clés de votre choix.
@@ -210,36 +210,6 @@
                             </div>
                         </div>
                     </div> 
-                    <!-- <div class="tab-pane fade" id="nav-ussd" role="tabpanel" aria-labelledby="nav-ussd-tab" tabindex="0">
-                        <div class="menu mt-5">
-                            <h3>USSD</h3>
-                            <h4>Tarif ≈ <span>$10/jour/panneau</span></h4>
-                            <p>
-                                Profitez d’un reseau de panneaux LED sur Dakar, Abidjan, Bamako et Accra
-                            </p>
-                            <div class="d-flex">
-                                <div>
-                                    <span>Unités</span><br>
-                                    <div class="btn-group" role="group">
-                                        <button type="button" class="btn btn-secondary">-</button>
-                                        <button type="button" class="btn btn-secondary" style="pointer-events:none;">0</button>
-                                        <button type="button" class="btn btn-secondary">+</button>
-                                    </div>
-                                </div>
-                                <div class="mx-3">
-                                    <span>Nombre de jours</span><br>
-                                    <div class="btn-group" role="group">
-                                        <button type="button" class="btn btn-secondary">-</button>
-                                        <button type="button" class="btn btn-secondary" style="pointer-events:none;">20</button>
-                                        <button type="button" class="btn btn-secondary">+</button>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-end">
-                                    <button class="yellow-btn" style="border:none;width:130px;">Ajouter</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>  -->
                     <div class="tab-pane fade" id="nav-pushvocal" role="tabpanel" aria-labelledby="nav-pushvocal-tab" tabindex="0">
                         <div class="menu mt-5">
                             <h3>Push Vocal</h3>
@@ -284,6 +254,28 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-tv" role="tabpanel" aria-labelledby="nav-tv-tab" tabindex="0">
+                        <div class="menu mt-5">
+                            <h3>TV</h3>
+                            <h4>Tarif ≈ <span>110$/écritel</span></h4>
+                            <p>
+                                Les chaines locales du Sénégal et de la Côte d'Ivoire sont disposées a recevoir votre message pour les téléspectateurs.
+                            </p>
+                            <div class="d-flex">
+                                <div class="">
+                                    <span class='label'>Nombre d'écritels</span><br>
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-secondary" onclick="updateInput('tv','-')">-</button>
+                                        <button type="button" class="btn btn-secondary" id='tv' style="pointer-events:none;">0</button>
+                                        <button type="button" class="btn btn-secondary" onclick="updateInput('tv','+')">+</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-end mx-3">
+                                    <button class="yellow-btn" style="border:none;width:130px;" onclick="updateSelectedCampaigns('Campagnes TV')">Ajouter</button>
+                                </div>
+                            </div>
+                        </div>
                     </div> 
                 </div>
                 <div class="amount position-absolute">0$</div>
@@ -291,7 +283,7 @@
             <div class="col col-12 order-1 order-md-2 col-md-4 result-col">
                 <div class="container">
                     <div class="progress mt-5">
-                        <div class="progress-bar" role="progressbar" style="width: 3%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="d-flex justify-content-between mt-1">
                         <img src="<?php echo(WEB_ROOT.'assets/images/sad.png')?>" alt="sad">
@@ -307,6 +299,35 @@
                         <span class="material-symbols-outlined">delete</span>
                         <span>Réinitialiser</span> 
                     </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- join section  --> 
+<section class="join-section py-5">
+    <div class="container">
+        <div class="row join-cards">
+            <div class="col col-12 col-md-6">
+                <div class="card">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="logo adafri">        
+                    <h6>Commencez l'aventure ADAFRI</h6>
+                    <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
+                    <div class="text-start">
+                        <a href="https://app.adafri.com/" class="yellow-btn">Lancez vous</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-md-6 mt-5 mt-sm-0">
+                <div class="card card-right">
+                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="white headset">        
+                    <h6>Commencez l'aventure ADAFRI</h6>
+                    <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
+                    <div class="text-start">
+                        <a target="_blank"
+                        href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -16,19 +16,18 @@
     }
 
     function refreshProgressBar() {
-        console.log(selectedCampaigns);
         let bar = document.querySelector('.progress-bar')
         let maxPerCampaign = 500
-        let totalCampaignType = 7
+        let totalCampaignType = 8
         let nbrUsedCamp = selectedCampaigns.length
-        let calculatedUsedProductsTotal = parseInt((50*nbrUsedCamp)/7)
+        let calculatedUsedProductsTotal = parseInt((50*nbrUsedCamp)/totalCampaignType)
         let amountPercentages = 0
         let calculatedPercentagePrice
         selectedCampaigns.forEach(elt=>{
-            let productPercentage = parseInt((elt.value * 100)/500)
+            let productPercentage = parseInt((elt.value * 100)/maxPerCampaign)
             productPercentage > 100 ? amountPercentages += 100 : amountPercentages += productPercentage;
         })
-        calculatedPercentagePrice = parseInt((amountPercentages*50)/700);
+        calculatedPercentagePrice = parseInt((amountPercentages*50)/800);
         let finalValue = calculatedUsedProductsTotal + calculatedPercentagePrice
         finalValue > 100 ? bar.style.width = `100%` : bar.style.width = `${finalValue}%`;
         
@@ -37,13 +36,15 @@
     function updateSinglePrice(type, value) {
         let amount = document.querySelector('.amount')
         if (!value || value == 0) return amount.innerHTML = '0$';
-        if (type == 'web') amount.innerHTML = (value * 0.1).toString() + '$'
-        if (type == 'search') amount.innerHTML = (value * 0.08).toString() + '$'
-        if (type == 'radio') amount.innerHTML = (value * 20).toString() + '$'
+        if (type == 'web') amount.innerHTML = (value * 0.0001).toString() + '$'
+        // if (type == 'search') amount.innerHTML = (parseInt(value * 0.11428571)).toString() + '$'
+        if (type == 'search') amount.innerHTML = (parseInt(value * 1)).toString() + '$'
+        if (type == 'radio') amount.innerHTML = (value * 21).toString() + '$'
         if (type == 'pushvocal') amount.innerHTML = (value * 0.02).toString() + '$'
+        if (type == 'tv') amount.innerHTML = (value * 110).toString() + '$'
         if (type == 'sms' ) {
             if(value <= 1000) return amount.innerHTML = '0$'
-            amount.innerHTML = (value * 0.02).toString() + '$'
+            amount.innerHTML = (value * 5).toString() + '$'
         }
         if (type == 'ledauchan') {
             let days = document.querySelector('#days-auchan').innerHTML
@@ -104,7 +105,7 @@
         selectedCampaigns = []
         updateTotalPrices();
         resetBtn.classList.add('disabled')
-        bar.style.width = `3%`
+        bar.style.width = `0%`
     }
 
     function updateTotalPrices() {
@@ -126,6 +127,7 @@
     }
 
     function updateInput(type, sign) {
+        let updateOnlyOne = ['ledauchan', 'ledoutdoor', 'tv']
         let element = document.querySelector(`#${type}`)
         if (!element) return;
         let actualValue = parseInt(element.innerHTML);
@@ -134,8 +136,10 @@
             newValue = eval(actualValue+sign+5)
         } else if(type == 'pushvocal') {
             newValue = eval(actualValue+sign+5000)
-        } else if(type == 'ledauchan' || type == 'ledoutdoor') {
+        } else if(updateOnlyOne.includes(type)) {
             newValue = eval(actualValue+sign+1)
+        } else if( type=='web' ){
+            newValue = eval(actualValue+sign+1000000)
         } else {
             newValue = eval(actualValue+sign+1000)
         }
